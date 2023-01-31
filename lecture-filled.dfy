@@ -573,6 +573,9 @@ method test_seq()
    var my_seq2 := [1, 2, 3, 1];
    assert(sorted_seq(my_seq));
    assert(sorted_seq(my_seq2[..3]));
+   // unsorted test
+   assert(my_seq2[0] == 1 && my_seq2[1] == 2 && my_seq2[2] == 3 && my_seq2[3] == 1);
+   assert(!sorted_seq(my_seq2));
 }
 
 
