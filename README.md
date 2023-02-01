@@ -1,6 +1,11 @@
 # CIS 6730 HW Assignments
 
 ## HW 1: Dafny
+### Typo fix
+There was a typo in hw.md that someone (thank you!) noticed on Piazza:
+"You can assume there is the right amount of space between `start` and `end` (write this as an `ensures`!)", should have said "You can assume there is the right amount of space between `start` and `end` (write this as an `requires`!)".
+
+
 ### Dafny Set-up
 Dafny installation instructions can be found here: https://github.com/dafny-lang/dafny/wiki/INSTALL 
 I highly recommend using the VS Code plug-in if you can.
