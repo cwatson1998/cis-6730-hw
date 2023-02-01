@@ -51,7 +51,7 @@ slightly), and any other predicates/methods/functions you find useful.
 ```dafny
 // Assuming a1 and a2 are each sorted, merge a1 and a2 into b, starting at `start`
 // and ending at `end`. You can assume there is the right amount of space between
-// `start` and `end` (write this as an `ensures`!).
+// `start` and `end` (write this as an `requires`!).
 method mergeSimple(a1: seq<int>, a2: seq<int>, start: int, end: int, b: array<int>)
     modifies b
     requires ...
