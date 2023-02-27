@@ -1,5 +1,9 @@
 # CIS 6730 HW Assignments
 
+# HW 2: SPIN
+In order to make things easier, I'm putting the second homework in its own Git Repo. Please clone this one: https://github.com/cwatson1998/cis-6730-hw-spin 
+The deadline will be 11:59pm on 3/16.
+
 ## HW 1: Dafny
 ### Typo fix
 There was a typo in hw.md that someone (thank you!) noticed on Piazza:
